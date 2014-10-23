@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Rater</title>
+    <link rel="stylesheet" href="src/css/style.css" type="text/css" />
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="heading">
+            <a href="#home">
+                <img src="dist/images/R8rPNG.png"></img>
+            </a>
+            <input type="text" name="searchBox" class="search" placeholder="Find and rate..." />
+        </nav>
+    </header>
+    <section class="map">
+        <img src="dist/images/map.jpg"></img>
+    </section>
+    <section class="categories clearfix">
+        <div>
+            Categories <span>&#43;</span>
+        </div>
+        <a href='#'>
+            <img id="homeIcon" src="dist/images/HomeTransparent45x32.png"/>
+        </a>
+        <ul class="hidden">
+            <a href='#coffee'>
+                <li id="coffee"></li>
+            </a>
+            <a href='#food'>
+                <li id="food"></li>
+            </a>
+            <a href='#culture'>
+                <li id="culture"></li>
+            </a>
+            <a href='#outdoors'>
+                <li id="outdoors"></li>
+            </a>
+            <a href='#shopping'>
+                <li id="shopping"></li>
+            </a>
+            <a href='#nightlife'>
+                <li id="nightlife"></li>
+            </a>
+        </ul>
+    </section>
+    <div ng-view>
+    </div>
+    <script type="text/javascript" src="src/js/routes.js"></script>
+    <script type="text/javascript" src="src/js/rater.js"></script>
+</body>
+<footer>
+    <div class="aboutUs"></div>
+    <div class="contacts"></div>
+    <span>About</span>
+    <span>Contacts</span>
+</footer>
+</html>

@@ -1,0 +1,41 @@
+{
+    "run": {
+        "@path": "/.c9/runners",
+        "configs": {
+            "json()": {
+                "git config --global user.name \"Martina\"": {
+                    "runner": "Apache httpd (PHP, HTML)",
+                    "command": "index.html",
+                    "debug": true,
+                    "name": "git config --global user.name \"Martina\""
+                }
+            },
+            "@inited": "true"
+        }
+    },
+    "share": {
+        "@preview": false,
+        "@app": false,
+        "@useOwnerSettings": false
+    },
+    "ace": {
+        "@newLineMode": "unix",
+        "@tabSize": "4",
+        "@useSoftTabs": "true",
+        "@guessTabSize": "true"
+    },
+    "find.nak": {
+        "@searchLimit": 100
+    },
+    "language": {
+        "@warnLevel": "info",
+        "@instanceHighlight": "true",
+        "@undeclaredVars": "true",
+        "@unusedFunctionArgs": "false"
+    },
+    "build": {
+        "@path": "/.c9/builders",
+        "@saveall": true,
+        "@builder": "auto"
+    }
+}
